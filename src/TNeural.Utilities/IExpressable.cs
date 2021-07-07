@@ -9,6 +9,6 @@ namespace TNeural.Utilities
 
     public interface IExpressable<TDelegate>: IExpressable
     {
-        Expression<TDelegate> ToExpression();
+        new Expression<TDelegate> ToExpression();
     }
 }
