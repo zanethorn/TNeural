@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNeural.Utilities", "src\TNeural.Utilities\TNeural.Utilities.csproj", "{B83DBE11-6699-4A65-A732-1BE7E6CBD2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNeural", "src\TNeural\TNeural.csproj", "{948590E9-C987-491A-BC26-7B9BE18F7B6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CF8650E3-A347-401A-B4A6-793D2A320313}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{90B56ACB-4060-4129-997B-0143E63C1D49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "src\utilities\Benchmark\Benchmark.csproj", "{E2765A70-707C-426D-BA9E-2FAFC7B4D677}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B83DBE11-6699-4A65-A732-1BE7E6CBD2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83DBE11-6699-4A65-A732-1BE7E6CBD2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83DBE11-6699-4A65-A732-1BE7E6CBD2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83DBE11-6699-4A65-A732-1BE7E6CBD2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948590E9-C987-491A-BC26-7B9BE18F7B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948590E9-C987-491A-BC26-7B9BE18F7B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948590E9-C987-491A-BC26-7B9BE18F7B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948590E9-C987-491A-BC26-7B9BE18F7B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2765A70-707C-426D-BA9E-2FAFC7B4D677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2765A70-707C-426D-BA9E-2FAFC7B4D677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2765A70-707C-426D-BA9E-2FAFC7B4D677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2765A70-707C-426D-BA9E-2FAFC7B4D677}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2765A70-707C-426D-BA9E-2FAFC7B4D677} = {90B56ACB-4060-4129-997B-0143E63C1D49}
+	EndGlobalSection
+EndGlobal
